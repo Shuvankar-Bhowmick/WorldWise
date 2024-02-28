@@ -1,6 +1,6 @@
 import styles from "./City.module.css";
 
-const formatDate = (date) =>
+const formatDate = date =>
   new Intl.DateTimeFormat("en", {
     day: "numeric",
     month: "long",
