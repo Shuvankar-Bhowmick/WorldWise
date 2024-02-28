@@ -4,9 +4,6 @@ import Spinner from "../Spinner/Spinner.jsx";
 import Message from "../Message/Message.jsx";
 
 function CityList({ cities, isLoading }) {
-  console.log("isLoading: " + isLoading);
-  console.log(cities.length);
-
   if (isLoading) return <Spinner />;
 
   if (cities.length === 0) {
